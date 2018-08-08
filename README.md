@@ -1,3 +1,3 @@
-Identi_game
+<h1>Identi_game</h1>
 
 유니티랑 연결! 심플하다! 형편없다! 하지만 내 첫 프로젝트!
