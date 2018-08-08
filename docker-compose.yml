@@ -1,0 +1,15 @@
+version: '2'
+services:
+  identidock:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - "80:9090"
+    #environment:
+    #  ENV: DEV
+  dnmonster:
+    image: amouat/dnmonster:1.0
+  redis:
+    image: redis:3.0
+
